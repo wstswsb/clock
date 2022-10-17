@@ -143,6 +143,7 @@
             this.Name = "MainView";
             this.Text = "Clock-Bobryshev-Maro";
             this.Load += new System.EventHandler(this.MainView_Load);
+            this.Click += new System.EventHandler(this.MainView_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
